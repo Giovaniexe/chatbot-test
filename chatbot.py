@@ -84,8 +84,18 @@ while continua == True:
             else:
                 print('-=' * 35)
                 print('Opção invalida!')
-            Letíci
-
+        elif duvidas == 3:
+            opção3 = int(input('Certo, sobre qual ferramenta é a sua duvida? \n'
+                               '[1] Internet\n'
+                               '[2] PowerPoint'))
+            if opção3 == 1:
+                print('A internet é um dos principais meios de comunicação, criada durante a guerra fria, hoje em dia\n'
+                  'é o principal meio de comunicação entre as pessoas do mundo todo, na internet podemos acessar\n'
+                  'redes sociais, estudar, ouvir musica, realizar ligações e até mesmo eu fui criado através da internet')
+            elif opção3 ==2:
+                print('O PowerPoint é um programa criado pela microsoft para a criação de apresentações em slides\n'
+                      'Através dele podemos criar slides com imagens, transições e até animação, o programa\n'
+                      'é muito utilizado por empresas e setores de marketing durante as suas apresentações')
     elif escolha == 2:
         print('-=' * 35)
         sleep(1)
